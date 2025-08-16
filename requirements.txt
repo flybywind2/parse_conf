@@ -1,0 +1,13 @@
+# 기본 실행에 필요한 라이브러리
+python-dotenv      # .env 로딩
+requests           # HTTP 호출
+openai             # OpenAI 호환 클라이언트
+langchain-openai   # 폴백/호환 레이어
+langchain-core     # 메시지 타입 등
+markdownify        # HTML → Markdown 변환
+beautifulsoup4     # HTML 파싱/속성 정리
+pillow             # 이미지 리사이즈/재인코딩
+
+# 개발/테스트/웹 UI
+pytest             # 단위 테스트
+streamlit          # 브라우저 UI
